@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test1"
+  description: "test2"
+  annotations:
+    github.com/project-slug: tanuudemo/test1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/admin"
